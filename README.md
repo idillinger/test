@@ -17,6 +17,15 @@ npm test    # runs basic tests using Node's built-in test runner
 npm start   # starts the HTTP server on port 3000
 ```
 
+### Run Locally
+
+With the server running you can verify it responds:
+
+```
+curl http://localhost:3000/
+curl http://localhost:3000/trips
+```
+
 The current server exposes basic placeholder endpoints for user registration and trip listing. It is intended as a starting point for further development.
 
 ## Future Work
