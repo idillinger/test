@@ -1,0 +1,6 @@
+node_modules/
+
+# Flutter
+mobile/build/
+mobile/.dart_tool/
+mobile/.packages
